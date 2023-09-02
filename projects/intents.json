@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+       "intent": "greetings-start",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon"
+      ],
+      "responses": [
+        "Hi",
+        "Hello",
+        "We are E404 Developers you are Welcome!",
+        "Welcome to Hack & Code 🥳"
+      ]
+    },
+    {
+       "intent": "greetings-end",
+      "examples": [
+        "Thanks",
+        "bye",
+        "Thankyou verymuch",
+        "Thank you very much",
+        "Tnks",
+        "bye bye"
+      ],
+      "responses": [
+        "You are Welcome! 😊",
+        "Thaks for chat with me 😊",
+        "Good Bye! 👋",
+        ":) Thaks 😊",
+        "Let's meet in the Competition 🥳🥳🥳"
+      ]
+    },
+    {
+       "intent": "competition-rules",
+      "examples": [
+        "Tell me Mandatory Rules ",
+        "Rules",
+        "rules",
+        "Tell me Rules"
+      ],
+      "responses": [
+        "\nMandatory Rules:\n1.  Programming Language: Participants must use \"Python\" as the programming language for their solutions.\n2.  Application Type: The application should be a Console Application. Graphical User Interfaces (GUIs) are not allowed.\n3.  Console Communication: All communication with the participants' programs should occur through the console (standard input and output).\n4.  Uniqueness: Each participant's application must be unique. Code similarity among submissions will be scrutinized.\n5.  Original Work: Participants must create their applications from scratch. Code taken from online sources, tutorials, courses, or YouTube videos is not allowed.\n6.  Database Connection: Database connectivity is not required for this competition. Participants should not attempt to connect to a database.\n7.  Submission Format: Participants are required to submit their solutions as .py files within the specified time period. Other file formats will be examined and allowed only if necessary.\n\nConsiderations and Scoring:\n---------------------------\n1.  Code Clarity: Clear and well-documented code with comments and proper formatting will be rewarded with extra points.\n2.  Error Handling: Effective error handling, including try-except blocks, will earn participants extra points for robustness.\n3.  Library Usage: While libraries are allowed, participants who implement functionalities manually (without relying on libraries) will receive extra points.\n4.  Creativity: Creative solutions or unique problem-solving approaches will be recognized and awarded extra marks.",
+        "Google Doc Link: https://docs.google.com/presentation/d/1ytzHl36rG7i6PmzbjfRaJeguDztamO46D2lDYetQn0Q/edit?usp=sharing"
+      ]
+    },
+
+    {
+      "intent": "contact_us",
+      "examples": [
+        "I need help",
+        "Help",
+        "Contact"
+      ],
+      "responses": [
+        "See Our Site and Thank me later! 😊 https://e404developers.com/hackcode/",
+        "\nContact Us :\nSacheera: 078 339 8454\nPasindu: 078 534 4186\nShehara: 071 490 7044"
+      ]
+    },
+    {
+      "intent": "Prize",
+      "examples": [
+        "Prizes :",
+        "what will winners get:",
+        "winners Prizes",
+        "winners Prize",
+        "Win",
+        "Prize"
+      ],
+      "responses": [
+        "\nFirst Place : Rs.15,000 🥳🥳🥳\nSecond Place : Rs.10,000 🥳🥳\nThird Place : Rs.5,000 🥳"
+      ]
+    },
+    {
+      "intent": "Who",
+      "examples": [
+        "Who are you?",
+        "Who Organize this",
+        "Organizers "
+      ],
+      "responses": [
+        "We are \"E404 Developers\"\nCompetition Name: Hack And Code"
+      ]
+    },
+    {
+      "intent": "Dead Lines",
+      "examples": [
+        "Time",
+        "Durations",
+        "Duration "
+      ],
+      "responses": [
+        "\nIntroduction Meeting: September 01 Saturday 6pm\nFirst Round: September 01 Saturday 11:59 pm to September 03  Monday 11:59 pm"
+      ]
+    }
+  ]
+}
